@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UBSupport_Example' do
+  pod 'UBSupport', :path => '../'
+
+  target 'UBSupport_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
